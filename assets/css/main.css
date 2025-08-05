@@ -226,7 +226,7 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url(https://emarin4.github.io/ellamarin.github.io/assets/css/images/redobs_final.jpg) top left;
+		background: url(https://emarin4.github.io/ellamarin.github.io/assets/css/images/redobs_final.jpg) top left;
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 100%;
