@@ -305,7 +305,7 @@ input, select, textarea {
 		width: 6750px;
 	}
 
-/* Overlay */
+/* Overlay
 
 	@-moz-keyframes overlay {
 		0% {
@@ -345,8 +345,8 @@ input, select, textarea {
 		100% {
 			opacity: 1;
 		}
-	}
-
+	} */
+/* 
 	#overlay {
 		-moz-animation: overlay 1.5s 1.5s forwards;
 		-webkit-animation: overlay 1.5s 1.5s forwards;
@@ -363,7 +363,7 @@ input, select, textarea {
 		position: fixed;
 		top: 0;
 		width: 100%;
-	}
+	} */
 
 /* Main */
 
