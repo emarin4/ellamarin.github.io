@@ -214,8 +214,8 @@ input, select, textarea {
 	#bg {
 	background-image: url(https://emarin4.github.io/ellamarin.github.io/assets/css/images/redobs_final.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 0% center;
+	background-size: auto;
+	background-position: center center;
 
 	position: fixed;
 	top: 0;
