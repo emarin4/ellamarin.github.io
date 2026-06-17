@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ella Marin — Astronomy Ph.D. Student</title>
 
-  <!-- Favicon placeholder -->
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
   <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
@@ -26,7 +25,7 @@
   <!-- ── Hero ─────────────────────────────────────────────── -->
   <section id="hero">
     <img src="assets/css/images/ella.jpeg" alt="Ella Marin" class="hero-photo" />
-    <h1>Ella Marin</h1>
+    <h1>Ella <span class="name-last">Marin</span></h1>
     <p class="hero-title">Astronomy Ph.D. Student &nbsp;·&nbsp; University of Washington</p>
     <span class="hero-badge">ARCS Foundation Scholar</span>
     <div class="hero-actions">
@@ -39,11 +38,11 @@
     </div>
   </section>
 
-  <!-- ── About ───────────────────────────────────────────────── -->
+  <!-- ── About ─────────────────────────────────────────────── -->
   <section id="about">
     <div class="section-inner">
+      <p class="section-label">// background</p>
       <h2 class="section-heading">About Me</h2>
-      <div class="section-divider"></div>
       <div class="about-text">
         <p>Hello! I am a first year Astronomy graduate student at the University of Washington currently working with Dr. Nora Shipp. I am fascinated by dark matter, and my work seeks to use both observations and simulations to understand its nature at small scales. Currently, I am leveraging stellar streams and machine learning techniques to constrain the properties of dark subhalos.</p>
         <p>I am originally from Connecticut and earned my B.A. in Physics from Dartmouth College in 2025. Outside of research, I enjoy hiking, skiing, and spending time outdoors, and I have loved exploring the Pacific Northwest since moving to Seattle.</p>
@@ -54,21 +53,27 @@
   <!-- ── Research ─────────────────────────────────────────── -->
   <section id="research">
     <div class="section-inner">
-      <h2 class="section-heading">Research Highlights</h2>
-      <div class="section-divider"></div>
-      <div class="cards-grid">
+      <p class="section-label">// current work</p>
+      <h2 class="section-heading">Research</h2>
+      <div class="research-list">
 
-        <div class="card">
-          <h3>Simulation-Based Inference for Dark Subhalo Recovery</h3>
-          <p>Stellar streams are promising probes for detecting dark matter subhalos in the Milky Way — but how do we go from stream structure to constraints on a perturber? Simulation-based inference (SBI) bypasses the need for an analytic likelihood, instead learning the relationship between stream morphology and subhalo properties (mass, radius, velocity, impact geometry) directly from simulations. Building on successful applications to mock streams (<a href="https://arxiv.org/abs/2512.07960" target="_blank">Nguyen+ 2026</a>), we are applying SBI to real data for the first time using the Atlas-Aliqa Uma stream, which features deep DES photometry and a well-studied kinematic perturbation. We ultimately aim to extend this framework to a population of Milky Way streams to characterize global trends in dark subhalo perturbations.</p>
+        <div class="research-entry">
+          <span class="research-num">01</span>
+          <div class="research-body">
+            <h3>Simulation-Based Inference for Dark Subhalo Recovery</h3>
+            <p>Stellar streams are promising probes for detecting dark matter subhalos in the Milky Way — but how do we go from stream structure to constraints on a perturber? Simulation-based inference (SBI) bypasses the need for an analytic likelihood, instead learning the relationship between stream morphology and subhalo properties (mass, radius, velocity, impact geometry) directly from simulations. Building on successful applications to mock streams (<a href="https://arxiv.org/abs/2512.07960" target="_blank">Nguyen+ 2026</a>), we are applying SBI to real data for the first time using the Atlas-Aliqa Uma stream, which features deep DES photometry and a well-studied kinematic perturbation. We ultimately aim to extend this framework to a population of Milky Way streams to characterize global trends in dark subhalo perturbations.</p>
+          </div>
         </div>
 
-        <div class="card">
-          <h3>Ylgr Stellar Stream Structure</h3>
-          <p>Ylgr is a recently discovered stellar stream with unusually complex morphology — varying width and possible off-track features that smooth, unperturbed models fail to reproduce. Using <a href="https://arxiv.org/abs/2410.21174" target="_blank">StreamSculptor</a>, we find that models incorporating an external perturbation significantly better reconstruct Ylgr's structure, providing evidence for a dark subhalo encounter during the stream's evolution.</p>
-          <figure class="card-figure">
-            <img src="assets/ylgr_dust_kde.png" alt="Ylgr stellar stream: star positions, dust extinction map, and stellar density KDE" />
-          </figure>
+        <div class="research-entry">
+          <span class="research-num">02</span>
+          <div class="research-body">
+            <h3>Ylgr Stellar Stream Structure</h3>
+            <p>Ylgr is a recently discovered stellar stream with unusually complex morphology — varying width and possible off-track features that smooth, unperturbed models fail to reproduce. Using <a href="https://arxiv.org/abs/2410.21174" target="_blank">StreamSculptor</a>, we find that models incorporating an external perturbation significantly better reconstruct Ylgr's structure, providing evidence for a dark subhalo encounter during the stream's evolution.</p>
+            <figure class="research-figure">
+              <img src="assets/ylgr_dust_kde.png" alt="Ylgr stellar stream: star positions, dust extinction map, and stellar density KDE" />
+            </figure>
+          </div>
         </div>
 
       </div>
@@ -78,8 +83,8 @@
   <!-- ── Contact ──────────────────────────────────────────── -->
   <section id="contact">
     <div class="section-inner">
-      <h2 class="section-heading">Get in Touch</h2>
-      <div class="section-divider"></div>
+      <p class="section-label">// get in touch</p>
+      <h2 class="section-heading">Contact</h2>
       <p class="contact-intro">
         Feel free to reach out about research, collaborations, or anything else.
       </p>
@@ -100,7 +105,6 @@
   </footer>
 
   <script>
-    // Solidify nav on scroll
     const nav = document.getElementById('site-nav');
     window.addEventListener('scroll', () => {
       nav.classList.toggle('scrolled', window.scrollY > 20);
