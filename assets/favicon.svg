@@ -1,17 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <rect width="32" height="32" rx="5" fill="#0a0f1a"/>
   <!-- background stars -->
-  <circle cx="6"  cy="8"  r="1.1" fill="white" opacity="0.85"/>
-  <circle cx="14" cy="5"  r="0.8" fill="white" opacity="0.65"/>
-  <circle cx="25" cy="7"  r="1.0" fill="white" opacity="0.80"/>
-  <circle cx="28" cy="18" r="0.7" fill="white" opacity="0.60"/>
-  <circle cx="10" cy="26" r="0.9" fill="white" opacity="0.70"/>
-  <circle cx="22" cy="25" r="0.7" fill="white" opacity="0.55"/>
-  <circle cx="4"  cy="20" r="0.6" fill="white" opacity="0.50"/>
-  <!-- stellar stream arc -->
-  <path d="M5,24 C9,16 17,11 27,15" stroke="#7eb3f5" stroke-width="2.4" fill="none" stroke-linecap="round"/>
-  <!-- stream stars along the arc -->
-  <circle cx="9"  cy="19" r="1.2" fill="#7eb3f5" opacity="0.95"/>
-  <circle cx="16" cy="13" r="1.4" fill="#7eb3f5" opacity="1.0"/>
-  <circle cx="23" cy="14" r="1.1" fill="#7eb3f5" opacity="0.90"/>
+  <circle cx="5"  cy="6"  r="1.0" fill="white" opacity="0.75"/>
+  <circle cx="27" cy="5"  r="0.9" fill="white" opacity="0.65"/>
+  <circle cx="29" cy="20" r="0.8" fill="white" opacity="0.60"/>
+  <circle cx="3"  cy="23" r="0.9" fill="white" opacity="0.65"/>
+  <circle cx="14" cy="4"  r="0.7" fill="white" opacity="0.55"/>
+  <!-- stellar stream arc (bold) -->
+  <path d="M4,22 C8,12 20,9 28,16" stroke="#7eb3f5" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- bright highlight dot at stream peak -->
+  <circle cx="16" cy="11" r="2.5" fill="#7eb3f5"/>
+  <circle cx="16" cy="11" r="1.2" fill="white" opacity="0.9"/>
 </svg>
