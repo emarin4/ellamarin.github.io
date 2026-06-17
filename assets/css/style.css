@@ -330,13 +330,15 @@ footer a:hover { color: var(--accent-blue); }
 
 /* ── Figures ──────────────────────────────────────────────── */
 .card-figure {
-  margin: 1.25rem 0 0;
+  margin: 1.25rem -1.75rem -1.75rem;
+  overflow: hidden;
 }
 
 .card-figure img {
   width: 100%;
-  border-radius: 6px;
+  max-width: 100%;
   display: block;
+  border-radius: 0 0 12px 12px;
 }
 
 /* ── Responsive ───────────────────────────────────────────── */
