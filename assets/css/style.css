@@ -303,7 +303,7 @@ section:nth-child(even) { background: var(--bg-alt); }
 
 .research-figure {
   margin-top: 1.75rem;
-  max-width: 620px;
+  max-width: 380px;
   border: 1px solid var(--red-border);
   overflow: hidden;
 }
@@ -311,6 +311,16 @@ section:nth-child(even) { background: var(--bg-alt); }
 .research-figure img {
   width: 100%;
   display: block;
+}
+
+.research-figure figcaption {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  letter-spacing: 0.06em;
+  padding: 0.5rem 0.75rem;
+  border-top: 1px solid var(--red-border);
+  opacity: 0.8;
 }
 
 /* ── Contact ──────────────────────────────────────────────── */
